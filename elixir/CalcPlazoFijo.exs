@@ -1,6 +1,6 @@
-defmodule Calculadora do
+defmodule CalcPlazFij do
 
-  def suma(a,b) do
+  def porcentaje(a,b) do
 
     IO.puts "ganancia por dia: #{Float.round(((a * (b/100))/365),2)}"
     IO.puts "ganancia por semana: #{Float.round((((a * (b/100))/365)*7),2)}"
@@ -8,4 +8,4 @@ defmodule Calculadora do
   end
 end
 
-IO.inspect(Calculadora.suma(50000,37))
+IO.inspect(CalcPlazFij.porcentaje(50000,37))
