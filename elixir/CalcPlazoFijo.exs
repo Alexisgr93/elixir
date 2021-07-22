@@ -31,7 +31,7 @@ defmodule CalcInversion do
 
   def inv(a,b,c) do
 
-    IO.puts "La inversion requerida es: #{Float.round((((a/b)*365)/(c/100)),2)}"
+    IO.puts "La inversion requerida es: #{Float.round((((a/b)*365)/(c/100)),2)} por #{b} dias"
 
   end
 end
